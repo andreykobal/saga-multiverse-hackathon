@@ -38,7 +38,7 @@ public class UI : MonoBehaviour
         decimal etherValue = decimal.Divide((decimal)weiValue, (decimal)divisor);
         
         Debug.LogError("Account Balance in Wei: " + getBalance);
-        Debug.Log("$MNT: " + etherValue.ToString("0.0"));
+        Debug.Log("$MPN: " + etherValue.ToString("0.0"));
 
 
         
@@ -58,9 +58,9 @@ public class UI : MonoBehaviour
         
 
         // Begin checking NFT balances on start
-        checkNFTOwnership.CheckNFTBalance("0x6d0ddf5542cD11B9ee31c8974dD8106a25c3A192", 0);
-        checkNFTOwnership.CheckNFTBalance("0x9B8B3f0191a6f607f7b6df35Eb11Bd972Fb238A4", 1);
-        checkNFTOwnership.CheckNFTBalance("0x3da421b005d15B6dCDDd7d2bd1c9CC1876638cf7", 2);
+        checkNFTOwnership.CheckNFTBalance("0x191F03d5c7f18C8Cce0f6105Ac3c5D7a95Bad747", 0);
+        checkNFTOwnership.CheckNFTBalance("0x4c616dAC04dbbc42896821D1F0da8a5c485e4914", 1);
+        checkNFTOwnership.CheckNFTBalance("0xe3CC0Ac7C2f98420DD178Eb17057b9A1072910ae", 2);
         
     }
 
@@ -98,7 +98,7 @@ public class UI : MonoBehaviour
         Button button = GetButtonForAvatarIndex(avatarIndex);
         button.text = text;
 
-         if (text == "Buy 0.5 $MNT")
+         if (text == "Buy 0.5 $MPN")
         {
             // Set the background color to rgb(68, 31, 132)
             button.style.backgroundColor = new Color(68f / 255f, 31f / 255f, 132f / 255f);
