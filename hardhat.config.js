@@ -17,6 +17,11 @@ module.exports = {
       chainId: 5001,
       url: `https://rpc.testnet.mantle.xyz/`,
       accounts: [privateKey]
+    },
+    mymetaverse: {
+      chainId: 1687098052079624,
+      url: `https://mymetaverse-1687098052079624-1.jsonrpc.sp1.sagarpc.io/`,
+      accounts: [privateKey]
     }
   },
   //* Keep name as 'etherscan' to avoid errors.
