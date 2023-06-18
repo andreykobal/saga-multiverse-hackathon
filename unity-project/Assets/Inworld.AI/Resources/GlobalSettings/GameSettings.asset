@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentServer: {fileID: 11400000, guid: 28b3b2b35eaee4a4abd0939f64328122, type: 2}
   currentWorkspace: {fileID: 11400000, guid: 1d716a3d82c0d114fb28107b853a0de9, type: 2}
-  currentScene: {fileID: 11400000, guid: a38992e39b20a7446a3bdf9aabd284a0, type: 2}
-  currentCharacter: {fileID: 11400000, guid: 82b1a1835fd9729438cddd258853ed68, type: 2}
+  currentScene: {fileID: 11400000, guid: d9531f2e76178164d9dd3b1fc83ac1c9, type: 2}
+  currentCharacter: {fileID: 11400000, guid: d4cb848e7ec5e9e49a84a6f0e1394fcf, type: 2}
   currentKey: {fileID: 11400000, guid: a4136560547364540b854b9ab3e8610b, type: 2}

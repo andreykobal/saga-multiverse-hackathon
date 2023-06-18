@@ -5,6 +5,7 @@ public class DiamondCollector : MonoBehaviour
 {
     public int diamondCount = 10;
     public AudioClip diamondCollectSound;
+    public AudioClip winSound;
     public UIDocument uiDocument;
 
     private int collectedDiamonds = 0;
@@ -40,6 +41,7 @@ public class DiamondCollector : MonoBehaviour
             if (collectedDiamonds == diamondCount)
             {
                 Debug.Log("Win!");
+                audioSource.PlayOneShot(winSound);
 
                 // Show the #Claim element
                 claimElement.visible = true;

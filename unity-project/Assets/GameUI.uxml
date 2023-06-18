@@ -12,7 +12,7 @@
             <ui:VisualElement name="Claim" style="flex-direction: row; flex-wrap: nowrap; flex-shrink: 1; justify-content: center; display: flex; visibility: hidden;">
                 <ui:VisualElement style="padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px;">
                     <ui:VisualElement name="Card" class="image-bg-card" style="background-image: resource(&apos;diamond-transformed&apos;); -unity-background-scale-mode: scale-and-crop;">
-                        <ui:Label text="10 Diamonds" display-tooltip-when-elided="true" style="align-items: stretch; -unity-text-align: upper-center; font-size: 14px; margin-top: 10px; -unity-font-definition: resource(&apos;Roboto-Regular SDF&apos;);" />
+                        <ui:Label text="10 Cassettes" display-tooltip-when-elided="true" style="align-items: stretch; -unity-text-align: upper-center; font-size: 14px; margin-top: 10px; -unity-font-definition: resource(&apos;Roboto-Regular SDF&apos;);" />
                         <ui:Button text="Claim" display-tooltip-when-elided="true" name="ClaimButton" focusable="true" class="button-select button-buy" style="-unity-font-definition: resource(&apos;Roboto-Bold SDF&apos;);" />
                     </ui:VisualElement>
                 </ui:VisualElement>

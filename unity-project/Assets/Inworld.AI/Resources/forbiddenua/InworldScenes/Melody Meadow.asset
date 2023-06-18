@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3ad0515a2868cd4282589144c7820fd, type: 3}
+  m_Name: Melody Meadow
+  m_EditorClassIdentifier: 
+  fullName: workspaces/default-2mfv7jvfwv0bwyvlxqeo0w/scenes/melody_meadow
+  shortName: Melody Meadow
+  description: Step into the vibrant world of "Melody Meadow" in RetroCity's Central
+    Park. Immerse yourself in a nostalgic atmosphere filled with colorful retro vibes.
+    As you explore the park, keep your eyes peeled for special cassette tapes hidden
+    among the trees, benches, and playgrounds. These tapes contain magical music
+    from the past that will transport you to different eras and fill your adventure
+    with joyous melodies. Collect as many tapes as you can and unlock new tunes to
+    dance and groove along with. Join the fun in "Melody Meadow" and embark on a
+    musical journey through time in the lively heart of RetroCity's Central Park!
+  characters:
+  - workspaces/default-2mfv7jvfwv0bwyvlxqeo0w/characters/jack_groovy
+  triggers: []
+  index: 0

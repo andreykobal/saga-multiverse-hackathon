@@ -16,6 +16,7 @@ MonoBehaviour:
   fullName: workspaces/default-2mfv7jvfwv0bwyvlxqeo0w
   characters:
   - {fileID: 11400000, guid: 82b1a1835fd9729438cddd258853ed68, type: 2}
+  - {fileID: 11400000, guid: d4cb848e7ec5e9e49a84a6f0e1394fcf, type: 2}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
@@ -25,6 +26,7 @@ MonoBehaviour:
   - {fileID: 0}
   scenes:
   - {fileID: 11400000, guid: a38992e39b20a7446a3bdf9aabd284a0, type: 2}
+  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
