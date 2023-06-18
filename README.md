@@ -93,7 +93,7 @@ Here are some C# code highlights from the Retrocity project:
 ```csharp
 async public void mintItem(int avatarIndex)
 {
-    string chainId = "5001";
+    string chainId = "YOUR_CHAIN_ID";
     var tokenURI = "https://bafkreiczapdwomdlotjqt4yaojyizlgarn4kq57smi3ptkwn5lug5yz7yu.ipfs.nftstorage.link/";
 
     string contractAbi = "";
@@ -187,7 +187,7 @@ private async void Start()
 
 async public void Mint1155cassettes()
 {
-    string chainId = "5001";
+    string chainId = "YOUR_CHAIN_ID";
     string contractAddress = "0x6721De8B1865A6cD98C64165305611B1f28B95e4";
     string value = "0";
     string abi = "";
